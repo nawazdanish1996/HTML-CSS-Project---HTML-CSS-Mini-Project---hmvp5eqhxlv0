@@ -11,7 +11,7 @@
 #home{
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) ,url(image/bg2.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) ,url(https://raw.githubusercontent.com/nawazdanish1996/HTML-CSS-mini-project/master/image/bg2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@
 }
 
 .logo{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 25%;
     position: relative;
     margin-top: 1rem;
