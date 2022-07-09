@@ -96,9 +96,9 @@
     font-weight: 1000;
 }
 #middle a:hover{
-    background-color: blue;
+    background-color: purple;
     border: none;
 }
 #middle a:active{
-    background-color: rgb(14, 53, 138);
+    background-color: rgb(161, 33, 161);
 }
