@@ -202,14 +202,33 @@
     /* width: 500px; */
     aspect-ratio: 4/2.5;
     border-radius: 10px;
-    transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
+    border: 3px solid crimson;
 }
 
-#right-about img:hover{
-    border: 10px solid crimson;
-}
-
+/* ===== Blog ===== */
 /* ===== Contact ===== */
+/* ===== Footer ===== */
+
+footer{
+    background-color: #111111;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p{
+    font-size: 1.2rem;
+}
+
+footer a{
+    color: crimson;
+    transition: all 1s ease;
+}
+
+footer a:hover{
+    color: rgb(190, 36, 67);
+}
 
 
 
