@@ -216,18 +216,25 @@
 }
 
 #right-about img{
-    max-width: 100%;
-    /* width: 500px; */
-    aspect-ratio: 4/2.5;
+    /* max-width: 100%; */
+    width: 600px;
+    aspect-ratio: 32/20;
     border-radius: 10px;
     /* transition: all 1s ease-in-out; */
     border: 2px solid crimson;
 }
 
+/* ===== Audio ===== */
+embed{
+    display: block;
+    color: white;
+    background-color: #111111;
+}
+
 /* ===== Course ===== */
 #course{
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     background: #111111;
     color: white;
 }
@@ -286,7 +293,7 @@
 /* ===== Blog ===== */
 #blog{
     width: 100%;
-    height: 175vh;
+    height: 190vh;
 }
 
 #img{
