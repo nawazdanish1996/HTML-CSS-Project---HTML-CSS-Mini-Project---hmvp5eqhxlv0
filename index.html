@@ -16,7 +16,7 @@
 
   <body>
     <!-- Audio -->
-    <embed src="audio/sare-jahan-se-acha.mp3" loop="true" hidden="true" autostart="true" width="2"
+    <embed src="" loop="true" hidden="true" autostart="true" width="2"
     height="0" />
 
     <!-- ===== Home ===== -->
@@ -143,15 +143,15 @@
         <h1>Contact Us</h1>
       </div>
       <form action="">
-        <fieldset>
-          <legend>Get in Touch</legend>
-          <input type="text" id="fname" placeholder="First Name">
-          <input type="text" id="lname" placeholder="Last Name">
+          <input type="text" id="name" placeholder="Full Name">
           <br>
-          <input type="email" id="email" placeholder="abc@gmail.com">
+          <input type="email" id="email" placeholder="abc@gmail.com" required>
           <br>
-          <input type="tel" id="mobileNo" placeholder="Mobile Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-        </fieldset>
+          <input type="text" id="subject" minlength="15" placeholder="Enter Your Subject" required>
+          <br>
+          <textarea name="" id="message" minlength="50" cols="30" rows="10" placeholder="Message" required></textarea>
+          <br>
+          <button type="submit">Send Message</button>
       </form>
     </div>
 
@@ -165,5 +165,7 @@
         >
       </p>
     </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -291,7 +291,7 @@ embed{
 /* ===== Blog ===== */
 #blog{
     width: 100%;
-    height: 190vh;
+    height: 175vh;
 }
 
 #img{
@@ -333,9 +333,23 @@ embed{
     text-align: center;
 }
 
-form{
+#contact form{
     width: 30%;
     margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+#contact input{
+    width: 100%;
+    height: 2rem;
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+
+#contact textarea{
+    width: 100%;
+    height: 10rem;
+    padding: 1rem;
 }
 
 /* ===== Footer ===== */
