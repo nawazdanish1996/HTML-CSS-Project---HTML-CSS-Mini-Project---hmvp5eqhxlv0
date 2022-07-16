@@ -1,0 +1,24 @@
+/* ===== Screen 1 ===== */
+@screen (max-width: 1104){
+    
+}
+
+/* ===== Screen 2 ===== */
+@screen (max-width: 991){
+    
+}
+
+/* ===== Screen 3 ===== */
+@screen (max-width: 947){
+    
+}
+
+/* ===== Screen 4 ===== */
+@screen (max-width: 690){
+    
+}
+
+/* ===== Screen 5 ===== */
+@screen (max-width: 500){
+
+}
