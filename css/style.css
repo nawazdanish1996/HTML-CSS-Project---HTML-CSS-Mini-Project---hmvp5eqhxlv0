@@ -276,26 +276,3 @@ form button:active{
 /* ===========================
         Footer
 =========================== */
-#footer{
-    background-color: crimson;
-    color: white;
-    /* padding: .5rem; */
-    text-align: center;
-}
-
-#footer p{
-    font-size: .8rem;
-}
-
-#footer a{
-    color: #f1c40f;
-    transition: all 1s ease;
-}
-
-#footer a:hover{
-    color: rgb(190, 36, 67);
-}
-
-.naav{
-    background: #111111;
-}
