@@ -3,49 +3,6 @@
 ================ */
 @media (max-width: 1252px) { 
     /* ===== Home ===== */
-    .logo{
-        text-align: center;
-        /* border: 1px solid red; */
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .logo h1,i{
-        font-size: 2.5rem;
-    }
-    
-    #nav1 li .fa-bars{
-        display: block;
-        position: absolute;
-        left: 5%;
-        top: 17%;
-    }
-
-    #nav2{
-        display: none;
-        /* border: 1px solid red;
-        float: left;
-        margin-left: 2rem;
-        width: 20%; */
-        text-align: center;
-    }
-
-    #nav2 li{
-        margin-top: 1rem;
-    }
-
-    #nav2 li a{
-        font-size: 20px;
-        border: 1px solid red;
-    }
-
-    #nav1:hover #nav2{
-        display: block;
-        position: absolute;
-        top: 15%;
-        left: -5%;
-
-    }
 
     /* ===== About ===== */
     /* ===== Course ===== */
