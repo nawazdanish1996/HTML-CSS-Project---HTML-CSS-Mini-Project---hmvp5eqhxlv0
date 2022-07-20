@@ -1,6 +1,11 @@
 /* I am Nawaz Danish, I am from West Bengal
  I studies at Newton School, Benglore, Karnataka */
 
+/* ===== Audio ===== */
+embed{
+    display: block;
+}
+
 /* ===========================
         Scroll Bar
 =========================== */
@@ -21,18 +26,24 @@
     background: black; 
 }
 
+body{
+    background: #0a264e;
+}
+
 /* ===========================
         Home
 =========================== */
-#home{
+/* #home{
     width: 100%;
     height: 100vh;
     background-image:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) ,url(https://raw.githubusercontent.com/nawazdanish1996/HTML-CSS-Project---HTML-CSS-Mini-Project---hmvp5eqhxlv0/master/image/bg2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+} */
+#nav1 li{
+    list-style: none;
 }
-
 #nav1 li i{
     color: white;
     font-size: 1.5rem;
@@ -136,13 +147,58 @@
 .top i:active{
     background-color: #0a264e;
 }
-/* ===========================
-        About
-=========================== */
 
 /* ===========================
         About
 =========================== */
+#about .container{
+    /* border-radius: 10px; */
+    margin-top: 2rem;
+}
+
+#headingAbout h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+#right-about img{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    /* transition: all 1s ease-in-out; */
+    border: 2px solid crimson;
+}
+
+/* ===========================
+        Course
+=========================== */
+#course .col-md-4{
+    color: white;
+    text-align: center;
+}
+.col-md-4{
+    background-image: linear-gradient(to right top, #051937, #0b2d5b, #114381, #155ba9, #1673d4);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+}
+.col-md-4:hover{
+    box-shadow: 0 0 30px black;
+}
+.col-md-4 i{
+    font-size: 2rem;
+}
+.col-md-4 p{
+    text-align: justify;
+}
+
 
 /* ===========================
         About
