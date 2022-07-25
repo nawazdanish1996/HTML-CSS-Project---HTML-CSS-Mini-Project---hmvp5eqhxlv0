@@ -46,6 +46,10 @@ body{
 /* ===========================
         Home
 =========================== */
+#nav{
+    position: fixed;
+}
+
 #nav1 li{
     list-style: none;
 }
