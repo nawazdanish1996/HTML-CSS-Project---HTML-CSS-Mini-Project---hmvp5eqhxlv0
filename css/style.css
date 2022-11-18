@@ -1,11 +1,6 @@
 /* I am Nawaz Danish, I am from West Bengal
  I studies at Newton School, Benglore, Karnataka */
 
-/* ===== Audio ===== */
-embed{
-    display: block;
-}
-
 /* ===========================
         Scroll Bar
 =========================== */
@@ -28,19 +23,6 @@ embed{
 
 body{
     background: #0a264e;
-}
-
-/* ===========================
-        Theme
-=========================== */
-#theme{
-    margin-top: 1rem;
-}
-
-#theme img{
-    width: 30px;
-    cursor: pointer;
-    float: right;
 }
 
 /* ===========================
